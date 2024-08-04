@@ -28,8 +28,12 @@ body {
     color: #6F757C;
 }
 
+.collection {
+    color: #FEF7EE;
+}
+
 .container {
-    width: 70%;
+    width: 85%;
     margin: 70px auto;
     text-align: center;
     background: #1B1D1F;
@@ -52,6 +56,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 }
 
 nav li {
@@ -120,7 +125,7 @@ nav a {
     margin-top: 45px;
 }
 
-@media (max-width: 1215px) {
+@media (max-width: 1024px) {
     .main-content {
         display: flex;
         justify-content: center;
@@ -134,7 +139,7 @@ nav a {
     }
 }
 
-@media (max-width: 815px) {
+@media (max-width: 640px) {
     .main-content {
         display: flex;
         flex-direction: column;
@@ -143,9 +148,15 @@ nav a {
     .row-2 {
         margin-top: -20px;
     }
+    .dark-grey{
+        font-size: 0.75rem;
+    }
+    .collection {
+        font-size: 1.5rem;
+    }
 }
 
-@media(max-width: 1215px) {
+@media(max-width: 1024px) {
     .header {
         background-image: url(vector.svg);
         background-size: 30%;
@@ -153,18 +164,10 @@ nav a {
     }
 }
 
-@media (max-width: 815px) {
+@media (max-width: 640px) {
     .header {
         background-image: url(vector.svg);
-        background-size: 30%;
-        background-position: bottom 150px left 280px;
-    }
-}
-
-@media (max-width: 663px) {
-    .header {
-        background-image: url(vector.svg);
-        background-size: 30%;
-        background-position: bottom 230px left 230px;
+        background-size: 120px 120px;
+        background-position: 70% 10%;
     }
 }

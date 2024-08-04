@@ -175,11 +175,3 @@ nav a {
         background-position: 70% 10%;
     }
 }
-
-/* @media (max-width: 1520px) and (min-width: 1215px) {
-    .container {
-        background-image: url(vector.svg);
-        background-position: bottom 590px right 290px;
-        background-attachment: fixed;
-    }
-} */
