@@ -24,12 +24,46 @@ body {
 
 /*  */
 
+.image-container {
+    position: relative;
+}
+
+.popular-label {
+    display: flex;
+    gap: 210px;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 5px;
+}
+
+.popular {
+    position: absolute;
+    padding: 4px 15px;
+    background: #F6C768;
+    color: #1B1D1F;
+    font-size: 0.675rem;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
 .dark-grey {
     color: #6F757C;
 }
 
 .collection {
     color: #FEF7EE;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.collection-desc {
+    color: #6F757C;
+    width: 37%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .sold-out {
@@ -45,14 +79,14 @@ body {
 }
 
 .header {
-    padding-top: 70px;
+    padding-top: 90px;
     padding-bottom: 10px;
     display: inline-block;
     width: 100%;
     background-image: url(vector.svg);
     background-repeat: no-repeat;
     background-size: 270px;
-    background-position: 62% 45%;
+    background-position: 60% 35%;
 }
 
 nav ul {
